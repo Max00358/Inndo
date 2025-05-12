@@ -122,7 +122,7 @@ public class ListingEntity {
                 ", guestNumber=" + guestNumber +
                 ", imageUrls=" + imageUrls +
                 ", location=" + location +
-                ", host=" + host +
+                //", host=" + host + // we lazy loaded host, so remove it from toString
                 '}';
     }
 }
