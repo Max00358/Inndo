@@ -2,6 +2,7 @@ HELP.md
 .gradle
 **/application.yml
 **/.env
+**/credentials.json
 
 build/
 !gradle/wrapper/gradle-wrapper.jar
